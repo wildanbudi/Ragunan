@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424EAF4128EFE10900A528F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF4028EFE10900A528F2 /* AppDelegate.swift */; };
+		424EAF4328EFE10900A528F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF4228EFE10900A528F2 /* SceneDelegate.swift */; };
+		424EAF4528EFE10900A528F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF4428EFE10900A528F2 /* ViewController.swift */; };
+		424EAF4A28EFE10B00A528F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424EAF4928EFE10B00A528F2 /* Assets.xcassets */; };
+		424EAF4D28EFE10B00A528F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424EAF4B28EFE10B00A528F2 /* LaunchScreen.storyboard */; };
+		424EAF5828EFE10B00A528F2 /* Ragunan_Zoo_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF5728EFE10B00A528F2 /* Ragunan_Zoo_MapTests.swift */; };
+		424EAF6228EFE10B00A528F2 /* Ragunan_Zoo_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF6128EFE10B00A528F2 /* Ragunan_Zoo_MapUITests.swift */; };
+		424EAF6428EFE10B00A528F2 /* Ragunan_Zoo_MapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424EAF6328EFE10B00A528F2 /* Ragunan_Zoo_MapUITestsLaunchTests.swift */; };
+		427FEC3B28F667F100C6B123 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 427FEC3A28F667F100C6B123 /* MapboxCoreNavigation */; };
+		427FEC3D28F667F100C6B123 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 427FEC3C28F667F100C6B123 /* MapboxNavigation */; };
+		42D12D2E28FFB91E00857042 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D12D2D28FFB91E00857042 /* Animals.swift */; };
+		42D12D31290107EB00857042 /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D12D30290107EB00857042 /* AnimalViewModel.swift */; };
+		42D12D332901085C00857042 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D12D322901085C00857042 /* NavigationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424EAF5428EFE10B00A528F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424EAF3528EFE10900A528F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424EAF3C28EFE10900A528F2;
+			remoteInfo = "Ragunan-Zoo-Map";
+		};
+		424EAF5E28EFE10B00A528F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424EAF3528EFE10900A528F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424EAF3C28EFE10900A528F2;
+			remoteInfo = "Ragunan-Zoo-Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		424EAF3D28EFE10900A528F2 /* Ragunan-Zoo-Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ragunan-Zoo-Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424EAF4028EFE10900A528F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		424EAF4228EFE10900A528F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		424EAF4428EFE10900A528F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		424EAF4928EFE10B00A528F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424EAF4C28EFE10B00A528F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		424EAF4E28EFE10B00A528F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424EAF5328EFE10B00A528F2 /* Ragunan-Zoo-MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ragunan-Zoo-MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424EAF5728EFE10B00A528F2 /* Ragunan_Zoo_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ragunan_Zoo_MapTests.swift; sourceTree = "<group>"; };
+		424EAF5D28EFE10B00A528F2 /* Ragunan-Zoo-MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ragunan-Zoo-MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424EAF6128EFE10B00A528F2 /* Ragunan_Zoo_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ragunan_Zoo_MapUITests.swift; sourceTree = "<group>"; };
+		424EAF6328EFE10B00A528F2 /* Ragunan_Zoo_MapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ragunan_Zoo_MapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42D12D2D28FFB91E00857042 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		42D12D30290107EB00857042 /* AnimalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
+		42D12D322901085C00857042 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424EAF3A28EFE10900A528F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427FEC3B28F667F100C6B123 /* MapboxCoreNavigation in Frameworks */,
+				427FEC3D28F667F100C6B123 /* MapboxNavigation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF5028EFE10B00A528F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF5A28EFE10B00A528F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424EAF3428EFE10900A528F2 = {
+			isa = PBXGroup;
+			children = (
+				424EAF3F28EFE10900A528F2 /* Ragunan-Zoo-Map */,
+				424EAF5628EFE10B00A528F2 /* Ragunan-Zoo-MapTests */,
+				424EAF6028EFE10B00A528F2 /* Ragunan-Zoo-MapUITests */,
+				424EAF3E28EFE10900A528F2 /* Products */,
+				427FEC3528F65E3A00C6B123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		424EAF3E28EFE10900A528F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424EAF3D28EFE10900A528F2 /* Ragunan-Zoo-Map.app */,
+				424EAF5328EFE10B00A528F2 /* Ragunan-Zoo-MapTests.xctest */,
+				424EAF5D28EFE10B00A528F2 /* Ragunan-Zoo-MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424EAF3F28EFE10900A528F2 /* Ragunan-Zoo-Map */ = {
+			isa = PBXGroup;
+			children = (
+				4259537828F87A730051A609 /* Services */,
+				424EAF7028EFE17000A528F2 /* Models */,
+				424EAF7328EFE1C500A528F2 /* Views */,
+				424EAF7228EFE18800A528F2 /* ViewModels */,
+				424EAF4028EFE10900A528F2 /* AppDelegate.swift */,
+				424EAF4228EFE10900A528F2 /* SceneDelegate.swift */,
+				424EAF4928EFE10B00A528F2 /* Assets.xcassets */,
+				424EAF4B28EFE10B00A528F2 /* LaunchScreen.storyboard */,
+				424EAF4E28EFE10B00A528F2 /* Info.plist */,
+			);
+			path = "Ragunan-Zoo-Map";
+			sourceTree = "<group>";
+		};
+		424EAF5628EFE10B00A528F2 /* Ragunan-Zoo-MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				424EAF5728EFE10B00A528F2 /* Ragunan_Zoo_MapTests.swift */,
+			);
+			path = "Ragunan-Zoo-MapTests";
+			sourceTree = "<group>";
+		};
+		424EAF6028EFE10B00A528F2 /* Ragunan-Zoo-MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				424EAF6128EFE10B00A528F2 /* Ragunan_Zoo_MapUITests.swift */,
+				424EAF6328EFE10B00A528F2 /* Ragunan_Zoo_MapUITestsLaunchTests.swift */,
+			);
+			path = "Ragunan-Zoo-MapUITests";
+			sourceTree = "<group>";
+		};
+		424EAF7028EFE17000A528F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42D12D2D28FFB91E00857042 /* Animals.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		424EAF7228EFE18800A528F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				42D12D30290107EB00857042 /* AnimalViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		424EAF7328EFE1C500A528F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				424EAF7428EFE20300A528F2 /* Components */,
+				424EAF7528EFE20C00A528F2 /* Views */,
+				42D12D2F2900FDCE00857042 /* Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		424EAF7428EFE20300A528F2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		424EAF7528EFE20C00A528F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42D12D322901085C00857042 /* NavigationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4259537828F87A730051A609 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		427FEC3528F65E3A00C6B123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42D12D2F2900FDCE00857042 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				424EAF4428EFE10900A528F2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424EAF3C28EFE10900A528F2 /* Ragunan-Zoo-Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424EAF6728EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-Map" */;
+			buildPhases = (
+				424EAF3928EFE10900A528F2 /* Sources */,
+				424EAF3A28EFE10900A528F2 /* Frameworks */,
+				424EAF3B28EFE10900A528F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ragunan-Zoo-Map";
+			packageProductDependencies = (
+				427FEC3A28F667F100C6B123 /* MapboxCoreNavigation */,
+				427FEC3C28F667F100C6B123 /* MapboxNavigation */,
+			);
+			productName = "Ragunan-Zoo-Map";
+			productReference = 424EAF3D28EFE10900A528F2 /* Ragunan-Zoo-Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424EAF5228EFE10B00A528F2 /* Ragunan-Zoo-MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424EAF6A28EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-MapTests" */;
+			buildPhases = (
+				424EAF4F28EFE10B00A528F2 /* Sources */,
+				424EAF5028EFE10B00A528F2 /* Frameworks */,
+				424EAF5128EFE10B00A528F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424EAF5528EFE10B00A528F2 /* PBXTargetDependency */,
+			);
+			name = "Ragunan-Zoo-MapTests";
+			productName = "Ragunan-Zoo-MapTests";
+			productReference = 424EAF5328EFE10B00A528F2 /* Ragunan-Zoo-MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		424EAF5C28EFE10B00A528F2 /* Ragunan-Zoo-MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424EAF6D28EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-MapUITests" */;
+			buildPhases = (
+				424EAF5928EFE10B00A528F2 /* Sources */,
+				424EAF5A28EFE10B00A528F2 /* Frameworks */,
+				424EAF5B28EFE10B00A528F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424EAF5F28EFE10B00A528F2 /* PBXTargetDependency */,
+			);
+			name = "Ragunan-Zoo-MapUITests";
+			productName = "Ragunan-Zoo-MapUITests";
+			productReference = 424EAF5D28EFE10B00A528F2 /* Ragunan-Zoo-MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424EAF3528EFE10900A528F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					424EAF3C28EFE10900A528F2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					424EAF5228EFE10B00A528F2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 424EAF3C28EFE10900A528F2;
+					};
+					424EAF5C28EFE10B00A528F2 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 424EAF3C28EFE10900A528F2;
+					};
+				};
+			};
+			buildConfigurationList = 424EAF3828EFE10900A528F2 /* Build configuration list for PBXProject "Ragunan-Zoo-Map" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 424EAF3428EFE10900A528F2;
+			packageReferences = (
+				4212510728F59DD300D42F9A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
+			productRefGroup = 424EAF3E28EFE10900A528F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424EAF3C28EFE10900A528F2 /* Ragunan-Zoo-Map */,
+				424EAF5228EFE10B00A528F2 /* Ragunan-Zoo-MapTests */,
+				424EAF5C28EFE10B00A528F2 /* Ragunan-Zoo-MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424EAF3B28EFE10900A528F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424EAF4D28EFE10B00A528F2 /* LaunchScreen.storyboard in Resources */,
+				424EAF4A28EFE10B00A528F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF5128EFE10B00A528F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF5B28EFE10B00A528F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424EAF3928EFE10900A528F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424EAF4528EFE10900A528F2 /* ViewController.swift in Sources */,
+				42D12D2E28FFB91E00857042 /* Animals.swift in Sources */,
+				424EAF4128EFE10900A528F2 /* AppDelegate.swift in Sources */,
+				42D12D31290107EB00857042 /* AnimalViewModel.swift in Sources */,
+				42D12D332901085C00857042 /* NavigationView.swift in Sources */,
+				424EAF4328EFE10900A528F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF4F28EFE10B00A528F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424EAF5828EFE10B00A528F2 /* Ragunan_Zoo_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424EAF5928EFE10B00A528F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424EAF6228EFE10B00A528F2 /* Ragunan_Zoo_MapUITests.swift in Sources */,
+				424EAF6428EFE10B00A528F2 /* Ragunan_Zoo_MapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424EAF5528EFE10B00A528F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424EAF3C28EFE10900A528F2 /* Ragunan-Zoo-Map */;
+			targetProxy = 424EAF5428EFE10B00A528F2 /* PBXContainerItemProxy */;
+		};
+		424EAF5F28EFE10B00A528F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424EAF3C28EFE10900A528F2 /* Ragunan-Zoo-Map */;
+			targetProxy = 424EAF5E28EFE10B00A528F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		424EAF4B28EFE10B00A528F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424EAF4C28EFE10B00A528F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424EAF6528EFE10B00A528F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		424EAF6628EFE10B00A528F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424EAF6828EFE10B00A528F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ragunan-Zoo-Map/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		424EAF6928EFE10B00A528F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ragunan-Zoo-Map/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		424EAF6B28EFE10B00A528F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ragunan-Zoo-Map.app/Ragunan-Zoo-Map";
+			};
+			name = Debug;
+		};
+		424EAF6C28EFE10B00A528F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ragunan-Zoo-Map.app/Ragunan-Zoo-Map";
+			};
+			name = Release;
+		};
+		424EAF6E28EFE10B00A528F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ragunan-Zoo-Map";
+			};
+			name = Debug;
+		};
+		424EAF6F28EFE10B00A528F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJUW4SG84H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildanbudi.Ragunan-Zoo-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ragunan-Zoo-Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424EAF3828EFE10900A528F2 /* Build configuration list for PBXProject "Ragunan-Zoo-Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424EAF6528EFE10B00A528F2 /* Debug */,
+				424EAF6628EFE10B00A528F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424EAF6728EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424EAF6828EFE10B00A528F2 /* Debug */,
+				424EAF6928EFE10B00A528F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424EAF6A28EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424EAF6B28EFE10B00A528F2 /* Debug */,
+				424EAF6C28EFE10B00A528F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424EAF6D28EFE10B00A528F2 /* Build configuration list for PBXNativeTarget "Ragunan-Zoo-MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424EAF6E28EFE10B00A528F2 /* Debug */,
+				424EAF6F28EFE10B00A528F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4212510728F59DD300D42F9A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		427FEC3A28F667F100C6B123 /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4212510728F59DD300D42F9A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		427FEC3C28F667F100C6B123 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4212510728F59DD300D42F9A /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 424EAF3528EFE10900A528F2 /* Project object */;
+}
